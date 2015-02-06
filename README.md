@@ -1,11 +1,16 @@
 # PhotoTake.JS
 This is a javascript library(1,4kb) for take photo with your webcam simply.
+
 This library use localStorage.
+
 Example:
 
 <html>
-<body>
+
+<body
+
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <script type="text/javascript" src="phototake.js"></script>
 <script type="text/javascript">
