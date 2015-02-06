@@ -1,5 +1,5 @@
 # PhotoTake.JS
-This is a javascript library(1,4kb) for take photo with your webcam simply.
+This is a javascript library(2,46kb) for take photo with your webcam simply.
 
 This library use localStorage.
 
