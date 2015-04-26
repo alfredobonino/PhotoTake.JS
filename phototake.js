@@ -1,4 +1,4 @@
-/* PhotoTake.JS 0.1 - Main Edition - Licensed under the MIT Licensed
+/* PhotoTake.JS 0.2 - Main Edition - Licensed under the MIT Licensed
 *  Created by Alfredo Bonino, see -> https://www.github.com/alfredobonino
 *  For bug, newer version or new visit -> https://www.github.com/alfredobonino/PhotoTake.JS
 The MIT License (MIT)
@@ -19,6 +19,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
+function PhotoTake(width, height) {
 		window.addEventListener("DOMContentLoaded", function() {
 			var canvas = document.getElementById("phototake-canvas"),
 				context = canvas.getContext("2d"),
@@ -46,6 +47,7 @@ SOFTWARE.
 			}
 
 			document.getElementById("phototake").addEventListener("click", function() {
-				context.drawImage(video, 0, 0, localStorage.getItem("phototake-width"), localStorage.getItem("phototake-height"));
+				context.drawImage(video, 0, 0, width, height);
 			});
 		}, false);
+}
