@@ -1,5 +1,9 @@
 # PhotoTake.JS
 This is a javascript library(2,46kb) for take photo with your webcam simply.
+#Example of Usage:
+phototake(width-of-image, height-of-image)
+
+
 
 
 For Example see the example.html file.
