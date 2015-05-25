@@ -8,3 +8,5 @@ phototake(width-of-image, height-of-image)
 
 For Example see the example.html file.
 For demo visit -> http://alfredobonino.github.io/PhotoTake.JS
+The code is inspired by:
+http://davidwalsh.name/browser-camera
