@@ -1,4 +1,4 @@
-/* PhotoTake.JS 0.2 - Main Edition - Licensed under the MIT Licensed
+/* PhotoTake.JS 0.2 - Main Edition - Licensed under the MIT License
 *  Created by Alfredo Bonino, see -> https://www.github.com/alfredobonino
 *  For bug, newer version or new visit -> https://www.github.com/alfredobonino/PhotoTake.JS
 The MIT License (MIT)
